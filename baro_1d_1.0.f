@@ -7,7 +7,15 @@ CC
 CC    d/dt vort = -U*d/dx vort - beta*v
 CC
 CC  The model is global in longitude
-CC 
+CC
+CC  Coded by Matt Barlow a million years ago -- this really, really
+CC  needs to be recoded!
+CC
+CC  If you find any errors, please email me at Mathew_Barlow@uml.edu
+CC
+CC  CAUTION: Reading through this code may cause nausea, feelings
+CC  of existential dread, and uncontrollable weeping
+CC
 C
 	parameter(nx=144) ! same as reanalysis grid
         parameter(dt=60*15) ! time step (seconds)
