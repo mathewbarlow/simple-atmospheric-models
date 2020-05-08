@@ -14,7 +14,8 @@
 # Mathew_Barlow@uml.edu
 #
 # initially released 24 Oct 2019
-# last modified 15 Nov 2019 (analytic sol'n added, minor graphics changes)
+# version 1.0: 15 Nov 2019 (analytic sol'n added, minor graphics changes)
+# version 1.1: 8 May 2020 (small bug fix in first time step, thanks to Tom Guinn)
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -77,7 +78,7 @@ v_lytic_all = v0*np.cos(f0*t_all) - u0*np.sin(f0*t_all)
 
 #First time step is forward difference
 x = xold + dt*uold
-y = yold + 2*dt*vold
+y = yold + dt*vold
 f = 2*omega*np.sin(latold*d2r)
 u = uold + dt*f*vold
 v = vold - dt*f*uold
