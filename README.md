@@ -7,13 +7,14 @@ This is a repository for code I have used to make class examples; some animation
 </br>Solves the linearized barotropic vorticity equation in one spatial dimension (longitude). No external libraries, should run with gfortran.
 
 <b>lbve_sbr_1.0.f</b>
-</br>solves the linearized barotropic vorticity equation on a sphere, for idealized El Nino forcing with a basic state of solid body rotation. No external libraries, should run with gfortran.
+</br>Solves the linearized barotropic vorticity equation on a sphere, for idealized El Nino forcing with a basic state of solid body rotation. No external libraries, should run with gfortran.
 
 <b>inertial_oscillations_1.1.py</b>
 </br>Calculates trajectories for inertial oscillations.
 
 </br>
 </br>
+
 <b>More Information</b>
 
 </br>
