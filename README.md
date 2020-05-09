@@ -31,7 +31,7 @@ The following graphic was made from the output of <b>lbve_sbr_1.0.f</b>, using a
 
 The following animation was made from the output of <b>two_layer.f</b>, using a separate plotting routine:
 
-<img src="output-figures-animation/two_layer_big.gif" width="300" height="200">
+<img src="output-figures-animation/two_layer_big.gif" width="400" height="300">
 
 <b>inertial_oscillations_1.1.py</b> numerically calculates trajectories for inertial oscillations, given a starting location and wind, and makes the plot shown below.  The analytic solution for constant f is included for comparison and validation. The code solves the equation set:  <br> du/dt = fv
 <br> dv/dt = -fu
