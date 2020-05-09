@@ -9,6 +9,9 @@ This is a repository for code I have used to make class examples -- some graphic
 <b>lbve_sbr_1.0.f</b>
 </br>Solves the linearized barotropic vorticity equation on a sphere, for idealized El Nino forcing with a basic state of solid body rotation. No external libraries, should run with gfortran. Produces a binary output file, no plotting included (a GrADS control file is included in the 'grads' folder).
 
+<b>two_layer.f</b>
+</br>Solves the two layer model from Holton (4th ed), should run with gfortran. Coded by a student as a very impressive project but needs to be recoded for clarity. Produces a binary output file, no plotting included (a GrADS control file is included in the 'grads' folder).
+
 <b>inertial_oscillations_1.1.py</b>
 </br>Calculates trajectories for inertial oscillations and plots the results.
 
