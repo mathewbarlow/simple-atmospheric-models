@@ -10,7 +10,7 @@ This is a repository for code I have used to make class examples -- some graphic
 </br>Solves the linearized barotropic vorticity equation on a sphere, for idealized El Nino forcing with a basic state of solid body rotation. No external libraries, should run with gfortran. Produces a binary output file, no plotting included (a GrADS control file is included in the 'grads' folder).
 
 <b>two_layer.f</b>
-</br>Solves the two layer model from Holton (4th ed), should run with gfortran. Coded by a student as a very impressive project but needs to be recoded for clarity. Produces a binary output file, no plotting included (a GrADS control file is included in the 'grads' folder).
+</br>Solves the two-layer baroclinic model from Holton (4th ed), should run with gfortran. Coded by a student as a very impressive project but needs to be recoded for clarity. Produces a binary output file, no plotting included (a GrADS control file is included in the 'grads' folder).
 
 <b>inertial_oscillations_1.1.py</b>
 </br>Calculates trajectories for inertial oscillations and plots the results.
@@ -31,7 +31,7 @@ The following graphic was made from the output of <b>lbve_sbr_1.0.f</b>, using a
 
 The following animation was made from the output of <b>two_layer.f</b>, using a separate plotting routine:
 
-<img src="output-figures-animation/two_layer_big.gif" width="400" height="200">
+<img src="output-figures-animation/two_layer_big.gif" width="300" height="200">
 
 <b>inertial_oscillations_1.1.py</b> numerically calculates trajectories for inertial oscillations, given a starting location and wind, and makes the plot shown below.  The analytic solution for constant f is included for comparison and validation. The code solves the equation set:  <br> du/dt = fv
 <br> dv/dt = -fu
