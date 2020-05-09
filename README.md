@@ -18,7 +18,7 @@ This is a repository for code I have used to make class examples; some animation
 
 </br>
 
-<img src="output-figures-animation/baro_anim_2.gif" width="200" height="200">
+<img src="output-figures-animation/baro_anim_2.gif" width="400" height="200">
 
 <b>inertial_oscillations_1.1.py</b> numerically calculates trajectories for inertial oscillations, given a starting location and wind.  The analytic solution for constant f is included for comparison and validation. The code solves the equation set:  <br> du/dt = fv
 <br> dv/dt = -fu
