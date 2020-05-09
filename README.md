@@ -10,7 +10,7 @@ This is a repository for code I have used to make class examples -- some graphic
 </br>Solves the linearized barotropic vorticity equation on a sphere, for idealized El Nino forcing with a basic state of solid body rotation. No external libraries, should run with gfortran. Produces a binary output file, no plotting included (a GrADS control file is included in the 'grads' folder).
 
 <b>inertial_oscillations_1.1.py</b>
-</br>Calculates trajectories for inertial oscillations.
+</br>Calculates trajectories for inertial oscillations and plots the results.
 
 </br>
 
