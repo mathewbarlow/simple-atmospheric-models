@@ -1,7 +1,7 @@
 # simple-atmospheric-models
 Code for simple models of the atmosphere (and ocean)
 
-This is a repository for code I have used to make class examples; some animations using the output of the codes is shown further below. Unfortunately, several of the programs need to be completely re-coded for clarity and none of them have been carefully tested, so please use with caution. My goal is to eventually produce well-tested Python versions of all the programs here but I haven't figured out a way to get funding for that, so it remains a very slowly moving hobby project. If you find any errors, please contact me at Mathew_Barlow@uml.edu
+This is a repository for code I have used to make class examples -- some animations using the output of the codes are shown further below. Unfortunately, several of the programs need to be completely re-coded for clarity and none of them have been carefully tested, so please use with caution. My goal is to eventually produce well-tested Python versions of all the programs here but I haven't figured out a way to get funding for that, so it remains a very slowly moving hobby project. If you find any errors, please contact me at Mathew_Barlow@uml.edu .
 
 <b>baro_1d_1.0.f</b>
 </br>Solves the linearized barotropic vorticity equation in one spatial dimension (longitude). No external libraries, should run with gfortran.
