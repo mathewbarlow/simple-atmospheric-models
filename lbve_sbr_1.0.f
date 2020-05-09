@@ -16,7 +16,8 @@ CC  to Fig. 5a in Branstator (1985).
 CC
 CC  NOTES:
 CC
-CC  global spectral barotropic model with triangular truncation
+CC  Global spectral barotropic model with triangular truncation.
+CC  Currently set to T21 but runs at T42.
 CC
 CC  Maximum wave number and grid dimensions set separately, 
 CC  up to the user to ensure the correct relationship
