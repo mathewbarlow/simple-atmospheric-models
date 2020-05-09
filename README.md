@@ -13,7 +13,6 @@ This is a repository for code I have used to make class examples; some animation
 </br>Calculates trajectories for inertial oscillations.
 
 </br>
-</br>
 
 <b>More Information</b>
 
